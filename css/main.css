@@ -21,11 +21,11 @@
 .hero--title {
   margin: 0;
   line-height: 1.3;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 .hero--text {
   line-height: 1.7;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .flex {
@@ -44,7 +44,7 @@
   color: #fff;
   margin: 20px 20px;
   margin-left: 0;
-  padding: 10px 4px;
+  padding: 6px 4px;
   text-align: left;
   border-radius: 5px;
   text-decoration: none;
@@ -96,7 +96,7 @@
   width: 54%;
   text-align: center;
   margin: 0 auto;
-  line-height: 2;
+  line-height: 1.7;
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
@@ -135,13 +135,16 @@
 }
 
 .tabcontent__wrapper .tabcontent__text {
-  flex: 50%;
-  padding: 80px 50px;
+  flex: 80%;
+  padding: 40px 50px;
+  padding-bottom: 50px;
+  padding-right: 0;
 }
 .tabcontent__wrapper .tabcontent__image {
   flex: 50%;
   text-align: end;
-  padding: 80px 0;
+  padding: 40px 0;
+  padding-bottom: 50px;
   border-radius: 32px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -152,7 +155,7 @@
 
 .tabcontent__text > p {
   font-size: 1.2rem;
-  line-height: 2;
+  line-height: 1.6;
 }
 .tabcontent__text > h2 {
   font-size: 2rem;
@@ -163,10 +166,14 @@
   padding: 150px 0;
   padding-bottom: 100px;
 }
+.owl-carousel,
+.owl-carousel .owl-item {
+  padding: 30px;
+}
 .gallery {
   max-width: 80%;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 32px;
 }
 
 .banner__wrapper {
@@ -224,6 +231,21 @@
 
 .immersive__image {
   text-align: center;
+}
+.immersive__image .img-1 {
+  width: 30%;
+  flex: auto;
+}
+.immersive__image .img-2 {
+  width: 20%;
+}
+.immersive__image .img-3 {
+  width: 30%;
+  flex: auto;
+}
+
+.immersive .section__text {
+  margin-bottom: 3rem;
 }
 
 .feature-playing {
@@ -307,7 +329,6 @@
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
   padding-top: 150px;
   padding-bottom: 0;
-  margin-bottom: 100px;
 }
 
 .footer-hero .hero-wrapper {
