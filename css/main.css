@@ -157,3 +157,142 @@
 .tabcontent__text > h2 {
   font-size: 2rem;
 }
+.personalized-conn {
+  background-color: #ecedef;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  padding: 150px 0;
+  padding-bottom: 100px;
+}
+.gallery {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.banner__wrapper {
+  background-color: #212629;
+}
+.banner {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.dropbtn {
+  color: white;
+  background-color: transparent;
+  padding: 70px 16px;
+  font-size: 1.8rem;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+  outline: 0;
+}
+
+.immersive {
+  padding: 100px 0;
+}
+
+.immersive__image {
+  text-align: center;
+}
+
+.feature-playing {
+  background-color: #ecedef;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+  padding: 150px 0;
+  padding-bottom: 100px;
+}
+.feature-playing .section__title {
+  margin-bottom: 2.5rem;
+}
+
+.feature-playing__image {
+  text-align: center;
+}
+
+.make-feature {
+  padding: 100px 0;
+}
+
+.make-feature .social-btns {
+  justify-content: center;
+}
+
+.events__booking {
+  background-color: #ecedef;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  padding: 150px 0;
+  padding-bottom: 100px;
+}
+
+.parent img {
+  width: 100%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 70px;
+  grid-row-gap: 30px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 3;
+}
+.div2 {
+  grid-area: 1 / 3 / 3 / 5;
+}
+.div3 {
+  grid-area: 1 / 5 / 3 / 7;
+}
+.div4 {
+  grid-area: 3 / 1 / 5 / 3;
+}
+.div5 {
+  grid-area: 3 / 3 / 5 / 5;
+}
+.div6 {
+  grid-area: 3 / 5 / 5 / 7;
+}
+.div7 {
+  grid-area: 5 / 1 / 7 / 3;
+}
+.div8 {
+  grid-area: 5 / 3 / 7 / 5;
+}
+.div9 {
+  grid-area: 5 / 5 / 7 / 7;
+}
