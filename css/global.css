@@ -62,6 +62,9 @@ a {
 .text-center {
   text-align: center !important;
 }
+.bg-gray {
+  background-color: #ecedef;
+}
 
 .header {
   background-color: #212629;
