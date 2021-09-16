@@ -1,0 +1,121 @@
+.hero {
+  background-color: #ecedef;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  padding: 5rem 1.5rem;
+}
+.hero-wrapper {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+.hero__content,
+.hero__image {
+  flex: 50%;
+}
+.hero__image {
+  text-align: center;
+}
+
+.hero--title {
+  margin: 0;
+  line-height: 1.3;
+  font-size: 3.5rem;
+}
+.hero--text {
+  line-height: 1.7;
+  font-size: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-btns {
+  justify-content: start;
+}
+
+.app-btn {
+  width: 45%;
+  max-width: 200px;
+  color: #fff;
+  margin: 20px 20px;
+  margin-left: 0;
+  padding: 10px 4px;
+  text-align: left;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.app-btn.blu {
+  background: linear-gradient(to right, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
+  transition: background-color 0.25s linear;
+}
+.app-btn.blu:hover {
+  background-color: #454545;
+}
+.app-btn i {
+  width: 20%;
+  text-align: center;
+  font-size: 32px;
+  margin-right: 7px;
+}
+.app-btn .big-txt {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/*Mobile design*/
+@media only screen and (max-width: 768px) {
+  .hero-wrapper {
+    flex-wrap: wrap;
+  }
+  .hero {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+  }
+}
+
+.live-entertainment {
+  padding: 5rem 0;
+}
+
+.section__title {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.section__text {
+  width: 54%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.tabs--title {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tabs--title li {
+  background-color: #ecedef;
+  padding: 10px 20px;
+  padding-right: 50px;
+  border-radius: 10px 10px 4px 4px;
+  border: 0.5px solid var(--orange);
+  border-top: 5px solid var(--orange);
+}
+.tabs--title a {
+  color: black;
+}

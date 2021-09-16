@@ -7,6 +7,8 @@
     <title>Feature App</title>
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
   </head>
   <body>
     <header class="header">
@@ -14,7 +16,7 @@
         <a href="#" class="nav-logo"><img src="./images/logo-transparent.png" alt="" /></a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="#" class="nav-link">What is Feature <span>&#8963;</span></a>
+            <a href="#" class="nav-link">What is Feature</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Feature For Artists</a>
@@ -30,6 +32,77 @@
         </div>
       </nav>
     </header>
+    <main>
+      <section class="hero">
+        <div class="hero-wrapper">
+          <div class="hero__content">
+            <h1 class="hero--title">
+              Feature is <br />
+              <span class="text-orange">Revolutionary |</span>
+            </h1>
+            <p class="hero--text">Whether it's booking a personal live performance from your favorite band, watching a live stream, or buying show tickets, Feature connects the entertainers directly to the fans</p>
+            <div class="flex social-btns">
+              <a class="app-btn blu flex vert" href="http:apple.com">
+                <i class="fab fa-apple"></i>
+                <p>
+                  Download on the <br />
+                  <span class="big-txt">App Store</span>
+                </p>
+              </a>
+
+              <a class="app-btn blu flex vert" href="http:google.com">
+                <i class="fab fa-google-play"></i>
+                <p>
+                  Get app on <br />
+                  <span class="big-txt">Google Play</span>
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="hero__image">
+            <img src="./images/Live Enterntainment Your Way.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="live-entertainment">
+        <h1 class="section__title">Live Entertainment Your Way</h1>
+        <p class="section__text">Feature is the first app to use your prefrences and current location to deliver a never-ending streatm of experiences you’ll love — online, offline, or both.</p>
+        <div class="tabs_wrapepr">
+          <ul class="tabs--title">
+            <li>
+              <a href="javascript:rudrSwitchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active"
+                >Interactive <br />
+                Livestream</a
+              >
+            </li>
+            <li>
+              <a href="javascript:rudrSwitchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu"
+                >Virtual Meet <br />
+                and Greet</a
+              >
+            </li>
+            <li>
+              <a href="javascript:rudrSwitchTab('tb_3', 'content_3');" id="tb_3" class="tabmenu active"
+                >Find Local <br />
+                Events</a
+              >
+            </li>
+            <li>
+              <a href="javascript:rudrSwitchTab('tb_4', 'content_4');" id="tb_4" class="tabmenu"
+                >Private Talent <br />
+                Booking</a
+              >
+            </li>
+          </ul>
+
+          <div id="content_1" class="tabcontent">Content of the first tab.</div>
+          <div id="content_2" class="tabcontent" style="display: none">Content of the second tab.</div>
+          <div id="content_3" class="tabcontent">Content of the first tab.</div>
+          <div id="content_4" class="tabcontent" style="display: none">Content of the second tab.</div>
+        </div>
+      </section>
+    </main>
     <script src="./js/main.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

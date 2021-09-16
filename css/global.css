@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --orange: #f5881f;
+}
+
 html {
   font-family: "DM Sans", sans-serif;
 }
@@ -35,6 +39,10 @@ a {
   border-radius: 8px;
   font-size: 14px !important;
   font-weight: bold;
+}
+
+.text-orange {
+  color: var(--orange);
 }
 
 .header {
