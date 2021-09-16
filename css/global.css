@@ -149,3 +149,36 @@ a {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+footer {
+  background-color: #212629;
+  padding: 20px 32px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer__wrapper {
+  display: flex;
+  gap: 85px;
+  padding: 60px 0;
+  padding-bottom: 30px;
+  color: white;
+  width: 95%;
+  line-height: 1.7;
+}
+
+.footer__wrapper h4 {
+  margin-top: 8px;
+}
+.footer__wrapper .col {
+  flex: auto;
+}
+
+.footer__wrapper .col:first-child {
+  flex: 6;
+}
+
+.footer__wrapper .app-btn {
+  padding: 0;
+}
