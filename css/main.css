@@ -101,6 +101,11 @@
   margin-bottom: 1rem;
 }
 
+.tabs__wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .tabs--title {
   display: flex;
   justify-content: center;
@@ -118,4 +123,37 @@
 }
 .tabs--title a {
   color: black;
+}
+
+.tabcontent__wrapper {
+  display: flex;
+
+  gap: 100px;
+  border: 10px solid #ecedef;
+  border-top: 1px solid #ecedef;
+  border-radius: 40px;
+}
+
+.tabcontent__wrapper .tabcontent__text {
+  flex: 50%;
+  padding: 80px 50px;
+}
+.tabcontent__wrapper .tabcontent__image {
+  flex: 50%;
+  text-align: end;
+  padding: 80px 0;
+  border-radius: 32px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.tabcontent__wrapper .tabcontent__image img {
+  max-width: 100%;
+}
+
+.tabcontent__text > p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.tabcontent__text > h2 {
+  font-size: 2rem;
 }
