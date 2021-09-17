@@ -66,6 +66,10 @@ a {
   background-color: #ecedef;
 }
 
+img {
+  max-width: 100%;
+}
+
 .header {
   background-color: #212629;
 }
