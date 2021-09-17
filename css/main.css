@@ -30,12 +30,6 @@
   font-size: 1.2rem;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .live-entertainment {
   padding: 5rem 0;
 }

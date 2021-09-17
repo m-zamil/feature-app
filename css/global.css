@@ -164,6 +164,9 @@ img {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
+  .social-btns .app-btn {
+    width: 100%;
+  }
   .footer__wrapper {
     gap: 20px;
     flex-direction: column;
@@ -171,12 +174,13 @@ img {
 }
 
 .social-btns {
-  justify-content: start;
   gap: 20px;
+  justify-content: flex-start !important;
+  flex-grow: 1;
 }
 
 .app-btn {
-  width: 45%;
+  width: 50%;
   max-width: 200px;
   color: #fff;
   margin-left: 0;
@@ -216,11 +220,11 @@ footer a {
 }
 .footer__wrapper {
   display: flex;
-  gap: 85px;
+  gap: 45px;
   padding: 60px 0;
   padding-bottom: 30px;
   color: white;
-  width: 95%;
+  width: 98%;
   line-height: 1.7;
 }
 
