@@ -24,10 +24,12 @@
   margin: 0;
   line-height: 1.3;
   font-size: 3rem;
+  margin-bottom: 2rem;
 }
 .hero--text {
   line-height: 1.7;
   font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .live-entertainment {
