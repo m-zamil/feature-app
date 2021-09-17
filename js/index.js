@@ -29,3 +29,14 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+$(".owl-carousel.cards-slider").owlCarousel({
+  loop: true,
+  margin: 30,
+  dots: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});

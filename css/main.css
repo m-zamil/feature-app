@@ -129,6 +129,8 @@
 
 .banner__wrapper {
   background-color: #212629;
+  color: white;
+  line-height: 1.5;
 }
 .banner {
   width: 85%;
@@ -138,7 +140,9 @@
 .dropbtn {
   color: white;
   background-color: transparent;
-  padding: 40px 16px;
+  padding: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
   font-size: 1.8rem;
   border: none;
 }
@@ -290,16 +294,72 @@
   position: relative;
   bottom: -60px;
 }
+.desktop-show {
+  display: initial;
+}
+.desktop-hide {
+  display: none;
+}
+
+.card-content {
+  padding: 20px;
+  line-height: 1.5;
+}
+.cards-slider .owl-item:nth-child(even) .card .card-content {
+  color: white;
+  background-color: #f5881f;
+}
 
 /*Mobile design*/
 @media only screen and (max-width: 768px) {
+  .desktop-hide {
+    display: initial;
+  }
+  .desktop-hide img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -30px;
+  }
+  .desktop-show {
+    display: none;
+  }
   .hero-wrapper {
     flex-wrap: wrap;
     gap: 0;
+    width: 95%;
+    flex-direction: column;
   }
+  .hero--text {
+    text-align: center;
+  }
+  .app-btn {
+    font-size: 8px;
+  }
+  .app-btn i {
+    font-size: 24px;
+  }
+  .app-btn .big-txt {
+    font-size: 12px;
+  }
+  .social-btns {
+    flex-wrap: nowrap !important;
+  }
+
+  .hero-wrapper .hero__content {
+    order: 2;
+  }
+  .hero-wrapper .hero__image {
+    order: 1;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
   .hero {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
     padding-top: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   .footer__wrapper {
     flex-wrap: wrap;
@@ -307,6 +367,13 @@
   }
   .tabs--title {
     flex-wrap: wrap;
+    padding: 0;
+  }
+  .section__text {
+    text-align: left;
+  }
+  .owl-carousel,
+  .owl-carousel .owl-item {
     padding: 0;
   }
   .tabcontent__wrapper {
@@ -320,6 +387,13 @@
   }
   .tabcontent__wrapper {
     gap: 0;
+  }
+  .personalized-conn {
+    padding: 50px 0;
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+  }
+  .live-entertainment {
+    padding-bottom: 0;
   }
 
   .footer-hero .hero-wrapper {
@@ -339,7 +413,11 @@
     width: initial;
   }
   .app-btn.blu {
-    width: 200px;
+    width: 50%;
+    max-width: 126px;
+  }
+  .hero-wrapper .social-btns {
+    justify-content: center !important;
   }
   .find-events {
     padding: 50px 0px;
@@ -350,9 +428,11 @@
   }
   .hero--title {
     font-size: 2rem;
+    text-align: center;
   }
   .section__title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    text-align: left;
   }
   .tabcontent__text {
     padding: 20px !important;
@@ -362,5 +442,44 @@
   }
   .personalized-conn {
     padding-bottom: 0;
+  }
+  .tabs__wrapper {
+    display: none;
+  }
+  .immersive {
+    display: none;
+  }
+  .events__booking {
+    display: none;
+  }
+  .make-feature {
+    padding: 50px 0;
+  }
+  .find-events .find-events__images img {
+    background-color: transparent;
+    width: 100%;
+  }
+  .find-events .find-events__images > div:first-child img {
+    display: none;
+  }
+  .hero--title {
+    margin: 20px 0;
+  }
+  .footer__wrapper .social-btns {
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+  .find-events__images {
+    display: none;
+  }
+  .footer__wrapper .social-btns .app-btn.blu {
+    width: 150px;
+    max-width: 150px;
+  }
+  .feature-playing__image {
+    max-width: 70%;
+    margin: 25px auto;
+    margin-bottom: 0;
   }
 }
