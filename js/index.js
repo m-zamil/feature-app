@@ -21,7 +21,7 @@ $(".owl-carousel").owlCarousel({
   dots: false,
   responsive: {
     0: {
-      items: 1.2,
+      items: 1,
     },
 
     768: {

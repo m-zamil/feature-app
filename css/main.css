@@ -121,7 +121,7 @@
   background-color: #ecedef;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
   padding: 150px 0;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 .owl-carousel,
 .owl-carousel .owl-item {
@@ -144,7 +144,7 @@
 .dropbtn {
   color: white;
   background-color: transparent;
-  padding: 70px 16px;
+  padding: 40px 16px;
   font-size: 1.8rem;
   border: none;
 }
@@ -305,6 +305,7 @@
   }
   .hero {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+    padding-top: 3rem;
   }
   .footer__wrapper {
     flex-wrap: wrap;
@@ -312,6 +313,7 @@
   }
   .tabs--title {
     flex-wrap: wrap;
+    padding: 0;
   }
   .tabcontent__wrapper {
     flex-wrap: wrap;
@@ -325,9 +327,7 @@
   .tabcontent__wrapper {
     gap: 0;
   }
-  .footer__wrapper {
-    gap: 0;
-  }
+
   .footer-hero .hero-wrapper {
     padding-bottom: 100px;
   }
@@ -339,11 +339,34 @@
   }
   .social-btns {
     flex-wrap: wrap;
+    justify-content: flex-start;
   }
   .app-btn {
     width: initial;
   }
   .app-btn.blu {
     width: 200px;
+  }
+  .find-events {
+    padding: 50px 0px;
+  }
+  .parent {
+    max-width: 100%;
+    grid-column-gap: 10px;
+  }
+  .hero--title {
+    font-size: 2rem;
+  }
+  .section__title {
+    font-size: 1.5rem;
+  }
+  .tabcontent__text {
+    padding: 20px !important;
+  }
+  .footer-hero {
+    padding-top: 0;
+  }
+  .personalized-conn {
+    padding-bottom: 0;
   }
 }

@@ -99,3 +99,21 @@
 .make__conn h2 {
   font-size: 2.2rem;
 }
+
+@media (max-width: 768px) {
+  .hero__image {
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .make__conn {
+    flex-wrap: wrap;
+  }
+  .social-btns {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .meet__celeb--content h3 {
+  }
+  .meet__celeb--content p {
+  }
+}

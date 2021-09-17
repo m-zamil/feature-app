@@ -160,19 +160,27 @@ img {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  .social-btns {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .footer__wrapper {
+    gap: 20px;
+    flex-direction: column;
+  }
 }
 
 .social-btns {
   justify-content: start;
+  gap: 20px;
 }
 
 .app-btn {
   width: 45%;
   max-width: 200px;
   color: #fff;
-  margin: 20px 20px;
   margin-left: 0;
-  padding: 6px 4px;
+  padding: 2px 4px;
   text-align: left;
   border-radius: 5px;
   text-decoration: none;
