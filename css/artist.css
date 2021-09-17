@@ -77,6 +77,9 @@
   font-size: 1.2rem;
   line-height: 1.5;
 }
+.hundred {
+  background-color: #09af4b;
+}
 
 /*--------Responsive Design--------*/
 @media (max-width: 768px) {
