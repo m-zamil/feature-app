@@ -21,7 +21,7 @@ $(".owl-carousel-2").owlCarousel({
   dots: false,
   responsive: {
     0: {
-      items: 1,
+      items: 1.4,
     },
     768: {
       items: 3,
@@ -36,7 +36,7 @@ $(".owl-carousel-3").owlCarousel({
   dots: false,
   responsive: {
     0: {
-      items: 1,
+      items: 1.4,
     },
     768: {
       items: 3,
