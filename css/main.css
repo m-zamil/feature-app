@@ -39,7 +39,7 @@
   text-align: center;
   margin: 0 auto;
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .section__text {
@@ -48,7 +48,7 @@
   margin: 0 auto;
   line-height: 1.7;
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .tabs__wrapper {
@@ -223,8 +223,11 @@
 
 .make-feature .social-btns {
   justify-content: center !important;
+  margin: 35px 0;
 }
-
+.make-feature .section__title {
+  margin-bottom: 30px;
+}
 .events__booking {
   background-color: #ecedef;
   clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
@@ -292,7 +295,7 @@
 
 .footer-hero .hero__image {
   position: relative;
-  bottom: -60px;
+  bottom: -155px;
 }
 .desktop-show {
   display: initial;
@@ -308,6 +311,9 @@
 .cards-slider .owl-item:nth-child(even) .card .card-content {
   color: white;
   background-color: #f5881f;
+}
+.cards-slider__wrapper {
+  display: none;
 }
 
 /*Mobile design*/
@@ -481,5 +487,8 @@
     max-width: 95%;
     margin: 25px auto;
     margin-bottom: 0;
+  }
+  .cards-slider__wrapper {
+    display: block;
   }
 }

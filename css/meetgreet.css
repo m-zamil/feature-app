@@ -138,4 +138,7 @@
   .meet__celeb--content {
     flex-direction: column;
   }
+  .hero {
+    padding: 50px 0 160px;
+  }
 }
