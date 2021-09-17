@@ -14,7 +14,7 @@ function rudrSwitchTab(rudr_tab_id, rudr_tab_content) {
   document.getElementById(rudr_tab_id).className = "tabmenu active";
 }
 
-$(".owl-carousel").owlCarousel({
+$(".owl-carousel-2").owlCarousel({
   loop: true,
   margin: 30,
   nav: true,
@@ -23,20 +23,38 @@ $(".owl-carousel").owlCarousel({
     0: {
       items: 1,
     },
-
     768: {
       items: 3,
     },
   },
 });
 
-$(".owl-carousel.cards-slider").owlCarousel({
+$(".owl-carousel-3").owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: true,
+  dots: false,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 3,
+    },
+  },
+});
+
+$(".owl-carousel-1").owlCarousel({
   loop: true,
   margin: 30,
   dots: true,
   responsive: {
     0: {
       items: 1,
+    },
+
+    768: {
+      items: 3,
     },
   },
 });

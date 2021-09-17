@@ -13,7 +13,7 @@
 .hero__content,
 .hero__image {
   flex: 50%;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 3rem;
 }
 .hero__image {
@@ -124,8 +124,8 @@
   padding: 30px;
 }
 .gallery {
-  max-width: 80%;
-  margin: 0 auto;
+  /* max-width: 80%;
+  margin: 0 auto; */
   margin-top: 32px;
 }
 
@@ -137,6 +137,8 @@
 .banner {
   width: 85%;
   margin: 0 auto;
+  padding-bottom: 24px;
+  margin-bottom: 2rem;
 }
 
 .dropbtn {
@@ -144,9 +146,10 @@
   background-color: transparent;
   padding: 0;
   padding-top: 40px;
-  padding-bottom: 20px;
-  font-size: 1.8rem;
+  padding-bottom: 0px;
   border: none;
+  font-size: 2.5rem;
+  text-align: left;
 }
 
 .dropdown {
@@ -305,6 +308,9 @@
 .desktop-hide {
   display: none;
 }
+.desktop-hidden {
+  display: none;
+}
 
 .card-content {
   padding: 20px;
@@ -323,6 +329,16 @@
   .desktop-hide {
     display: initial;
   }
+  .desktop-hidden {
+    display: initial;
+    margin-bottom: 2rem;
+    display: block;
+  }
+  .desktop-hidden img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
   .desktop-hide img {
     width: 200px;
     display: block;
@@ -340,6 +356,7 @@
   }
   .hero--text {
     text-align: center;
+    font-size: 1.1rem;
   }
   .app-btn {
     font-size: 8px;
@@ -359,7 +376,7 @@
   }
   .hero-wrapper .hero__image {
     order: 1;
-    padding-top: 1rem;
+    padding-top: 0;
     padding-bottom: 0;
   }
 
@@ -398,10 +415,11 @@
   }
   .personalized-conn {
     padding: 50px 0;
-    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
   }
   .live-entertainment {
     padding-bottom: 0;
+    padding: 2rem 0;
   }
 
   .footer-hero .hero-wrapper {
@@ -461,7 +479,14 @@
     display: none;
   }
   .make-feature {
-    padding: 50px 0;
+    padding: 0;
+    text-align: center;
+  }
+  .make-feature .section__title {
+    text-align: center;
+  }
+  .make-feature .section__text {
+    text-align: center;
   }
   .find-events .find-events__images img {
     background-color: transparent;
@@ -490,7 +515,27 @@
     margin: 25px auto;
     margin-bottom: 0;
   }
+  .feature-playing {
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+    padding: 50px 0;
+  }
+
   .cards-slider__wrapper {
     display: block;
+  }
+  .personalized-conn__wrapper {
+    padding-bottom: 2rem;
+  }
+  .feature-playing__image {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 2rem;
+  }
+  .banner__wrapper.explore {
+    display: none;
+  }
+  .banner__wrapper.explore > * {
+    display: none;
   }
 }
