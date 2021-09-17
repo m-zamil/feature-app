@@ -79,6 +79,47 @@
 }
 .hundred {
   background-color: #09af4b;
+  padding: 100px 40px;
+}
+.hundred h1 {
+  font-size: 7rem;
+  -webkit-text-stroke-width: 6px;
+  -webkit-text-stroke-color: #271c24;
+  margin: 0 auto;
+  width: 90%;
+}
+.hundred p {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 3rem;
+  width: 90%;
+  padding-right: 200px;
+}
+.simplified__booking .showcase__image {
+  background-color: rgb(230, 36, 36);
+}
+.join__feature {
+  background-color: #212629;
+  color: white;
+  text-align: center;
+  padding: 70px 0;
+}
+.join__feature h2 {
+  margin: 10px auto;
+  margin-bottom: 40px;
+}
+
+.join__now {
+  color: white;
+  padding: 1.1rem 3rem;
+  letter-spacing: 6px;
+}
+.bg-orange {
+  background-color: rgb(234, 149, 33);
+}
+
+.join__feature:last-child .section__title {
+  max-width: 768px;
 }
 
 /*--------Responsive Design--------*/
@@ -95,12 +136,26 @@
   .showcase .showcase__content h2 {
     width: 90%;
     padding: 20px;
+    font-size: 1.4rem;
+    padding-left: 0;
   }
+  .front .section__title {
+    font-size: 1.5rem;
+  }
+
   .gain__revenue .showcase__content {
     width: 100%;
   }
   .gain__revenue .showcase__content p {
     width: 90%;
     margin-bottom: 40px;
+  }
+  .hundred h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+  }
+  .hundred p {
+    font-size: 1.7rem;
+    padding-right: 0px;
   }
 }
