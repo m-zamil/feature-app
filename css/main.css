@@ -367,4 +367,10 @@
   .footer-hero .hero-wrapper {
     padding-bottom: 100px;
   }
+  .app-btn {
+    width: 50%;
+  }
+  .app-btn:last-child {
+    margin-right: 0;
+  }
 }

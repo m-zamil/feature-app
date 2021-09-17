@@ -131,6 +131,9 @@ img {
 
   .nav-menu.active {
     left: 0;
+    z-index: 111;
+    position: absolute;
+    top: 52px;
   }
 
   .nav-item {
