@@ -69,6 +69,11 @@ a {
 img {
   max-width: 100%;
 }
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .header {
   background-color: #212629;
@@ -155,6 +160,42 @@ img {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+}
+
+.social-btns {
+  justify-content: start;
+}
+
+.app-btn {
+  width: 45%;
+  max-width: 200px;
+  color: #fff;
+  margin: 20px 20px;
+  margin-left: 0;
+  padding: 6px 4px;
+  text-align: left;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.app-btn.blu {
+  background: linear-gradient(to right, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
+  transition: background-color 0.25s linear;
+}
+.app-btn.blu:hover {
+  background-color: #454545;
+}
+.app-btn i {
+  width: 20%;
+  text-align: center;
+  font-size: 32px;
+  margin-right: 7px;
+}
+.app-btn .big-txt {
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 footer {

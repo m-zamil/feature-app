@@ -36,42 +36,6 @@
   justify-content: center;
 }
 
-.social-btns {
-  justify-content: start;
-}
-
-.app-btn {
-  width: 45%;
-  max-width: 200px;
-  color: #fff;
-  margin: 20px 20px;
-  margin-left: 0;
-  padding: 6px 4px;
-  text-align: left;
-  border-radius: 5px;
-  text-decoration: none;
-  font-family: "Lucida Grande", sans-serif;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-.app-btn.blu {
-  background: linear-gradient(to right, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
-  transition: background-color 0.25s linear;
-}
-.app-btn.blu:hover {
-  background-color: #454545;
-}
-.app-btn i {
-  width: 20%;
-  text-align: center;
-  font-size: 32px;
-  margin-right: 7px;
-}
-.app-btn .big-txt {
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
 .live-entertainment {
   padding: 5rem 0;
 }
@@ -265,7 +229,7 @@
 
 .events__booking {
   background-color: #ecedef;
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
   padding: 150px 0;
   padding-bottom: 100px;
 }
@@ -372,5 +336,14 @@
   }
   .app-btn:last-child {
     margin-right: 0;
+  }
+  .social-btns {
+    flex-wrap: wrap;
+  }
+  .app-btn {
+    width: initial;
+  }
+  .app-btn.blu {
+    width: 200px;
   }
 }
