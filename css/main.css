@@ -250,14 +250,16 @@
   margin-bottom: 30px;
 }
 .events__booking {
-  background-color: #ecedef;
+  background-color: #c6cacb;
   clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
   padding: 150px 0;
   padding-bottom: 100px;
 }
 
-.parent img {
-  width: 100%;
+.parents img {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 .parent {
