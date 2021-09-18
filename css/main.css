@@ -315,6 +315,9 @@
 .desktop-show {
   display: initial;
 }
+.mb-0 {
+  margin-bottom: 0 !important;
+}
 .desktop-hide {
   display: none;
 }

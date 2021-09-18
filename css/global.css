@@ -87,7 +87,7 @@ img {
 }
 
 .hamburger {
-  display: none;
+  margin-left: 50px;
 }
 
 .bar {
@@ -104,12 +104,16 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .nav-item {
   margin-left: 3rem;
 }
 
+.nav-logo {
+  margin-right: auto;
+}
 .nav-link {
   font-size: 1rem;
   font-weight: 400;
@@ -118,6 +122,42 @@ img {
 
 .nav-link:hover {
   color: rgba(257, 257, 257, 0.8);
+}
+
+.nav-menu--mobile {
+  display: none;
+}
+.nav-menu--mobile.active {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 55px;
+  z-index: 1;
+  gap: 30px;
+  width: 354px;
+  align-items: center;
+  background-color: #212629;
+  padding: 50px;
+}
+
+.nav-menu--mobile.active .nav-link.btn {
+  display: inline-block;
+}
+
+.nav-menu--mobile.active .nav-item {
+  margin: 0 auto;
+}
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 @media only screen and (max-width: 768px) {
@@ -132,17 +172,46 @@ img {
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    display: none;
   }
+  .nav-link.btn {
+    display: inline-block;
+  }
+  .nav-menu--mobile.active .desktop-hidden {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .nav-menu--mobile.active {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+  }
+  /* .nav-menu--mobile {
+    position: fixed;
+    left: -100%;
+    top: 52px;
+    flex-direction: column;
+    background-color: #212629;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  } */
 
   .nav-menu.active {
     left: 0;
     z-index: 111;
     position: absolute;
     top: 52px;
+    padding: 20px 25px;
+    padding-bottom: 2rem;
+    align-items: flex-start;
   }
 
   .nav-item {
-    margin: 1.5rem 0;
+    margin: 0.9rem 0;
   }
 
   .hamburger {
