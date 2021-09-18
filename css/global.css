@@ -145,8 +145,12 @@ img {
   display: inline-block;
 }
 
-.nav-menu--mobile.active .nav-item {
-  margin: 0 auto;
+.nav-menu--mobile.active {
+  align-items: flex-start;
+}
+
+.nav-menu--mobile .nav-item {
+  margin: 0;
 }
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
@@ -186,6 +190,12 @@ img {
     width: 100%;
     min-height: 100vh;
     padding: 50px;
+  }
+  .nav-menu--mobile.active {
+    align-items: center;
+  }
+  .nav-menu--mobile.active .desktop-hidden {
+    align-items: center;
   }
   /* .nav-menu--mobile {
     position: fixed;
