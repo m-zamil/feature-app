@@ -10,16 +10,31 @@
   margin-top: 10px;
   text-align: center;
   -webkit-tap-highlight-color: transparent;
+  display: flex;
+  color: var(--orange);
+  justify-content: space-between;
+  font-size: 28px;
+  position: absolute;
+  top: calc(50% - 32px);
+  justify-content: space-between;
+  width: 100%;
+}
+.owl-carousel {
+  position: relative;
 }
 .owl-theme .owl-nav [class*="owl-"] {
   color: #fff;
   font-size: 14px;
   margin: 5px;
   padding: 4px 7px;
-  background: #d6d6d6;
+  background: rgba(0, 0, 0, 0.5) !important;
   display: inline-block;
   cursor: pointer;
   border-radius: 3px;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  padding: 2px 10px !important;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover {
   background: #869791;

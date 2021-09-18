@@ -42,6 +42,9 @@
 .live-entertainment {
   padding: 5rem 0;
 }
+.live-entertainment .section__text {
+  margin-bottom: 3.5rem;
+}
 
 .section__title {
   width: 50%;
@@ -56,7 +59,7 @@
   text-align: center;
   margin: 0 auto;
   line-height: 1.7;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-bottom: 2.5rem;
 }
 
@@ -76,8 +79,7 @@
   background-color: #ecedef;
   padding: 10px 20px;
   padding-right: 50px;
-  border-radius: 10px 10px 4px 4px;
-  border: 0.5px solid var(--orange);
+  border-radius: 6px 6px 4px 4px;
   border-top: 5px solid var(--orange);
 }
 .tabs--title a {
@@ -86,10 +88,9 @@
 
 .tabcontent__wrapper {
   display: flex;
-
   gap: 100px;
   border: 10px solid #ecedef;
-  border-top: 1px solid #ecedef;
+  border-top: 0;
   border-radius: 40px;
 }
 
@@ -98,6 +99,7 @@
   padding: 40px 50px;
   padding-bottom: 50px;
   padding-right: 0;
+  padding-top: 60px;
 }
 .tabcontent__wrapper .tabcontent__image {
   flex: 50%;
@@ -107,14 +109,15 @@
   border-radius: 32px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  padding-top: 60px;
 }
 .tabcontent__wrapper .tabcontent__image img {
   max-width: 100%;
 }
 
 .tabcontent__text > p {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 2;
 }
 .tabcontent__text > h2 {
   font-size: 2rem;
@@ -160,6 +163,9 @@
   border: none;
   font-size: 2.5rem;
   text-align: left;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
 }
 
 .dropdown {
@@ -258,9 +264,9 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 70px;
+  grid-column-gap: 188px;
   grid-row-gap: 30px;
-  max-width: 50%;
+  max-width: 70%;
   margin: 0 auto;
 }
 
@@ -328,6 +334,13 @@
 .card-content {
   padding: 20px;
   line-height: 1.5;
+  padding-top: 0px;
+}
+.card-content h2 {
+  margin: 22px 0;
+}
+.card-content > p {
+  margin-bottom: 22px;
 }
 .cards-slider .owl-item:nth-child(even) .card .card-content {
   color: white;
@@ -339,6 +352,9 @@
 
 /*Mobile design*/
 @media only screen and (max-width: 768px) {
+  .top-hero .hero-wrapper .hero__image img {
+    height: 300px;
+  }
   .desktop-hide {
     display: initial;
   }

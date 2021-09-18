@@ -1,4 +1,15 @@
-@import url("../fonts/DMSans-Regular.ttf");
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
 
 *,
 *::before,
@@ -25,6 +36,9 @@ li {
 
 a {
   text-decoration: none;
+}
+button {
+  font-family: inherit;
 }
 
 .btn {
@@ -255,22 +269,44 @@ img {
 .social-btns {
   gap: 20px;
   justify-content: flex-start !important;
-  flex-grow: 1;
 }
 
 .app-btn {
-  width: 50%;
-  max-width: 200px;
   color: #fff;
   margin-left: 0;
   padding: 2px 4px;
   text-align: left;
-  border-radius: 5px;
+  border-radius: 15px;
   text-decoration: none;
-  font-family: "Lucida Grande", sans-serif;
   font-size: 10px;
   text-transform: uppercase;
+  justify-content: start;
+  padding: 4px 10px;
+  min-width: 168px;
 }
+.app-btn p {
+  font-size: 8px;
+}
+@media only screen and (max-width: 768px) {
+  .app-btn.blu {
+    min-width: 138px;
+  }
+  .navbar {
+    padding: 0.5rem 0.8em;
+  }
+  .nav-menu--mobile.active {
+    top: 40px;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .app-btn.blu {
+    min-width: 138px;
+  }
+  .flex.social-btns {
+    flex-wrap: wrap !important;
+  }
+}
+
 .app-btn.blu {
   background: linear-gradient(to right, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
   transition: background-color 0.25s linear;
