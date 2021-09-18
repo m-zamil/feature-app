@@ -209,6 +209,21 @@ img {
   font-size: 16px;
   text-transform: uppercase;
 }
+.desktop-hidden {
+  display: none;
+}
+.desktop-show {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .desktop-hidden {
+    display: block;
+  }
+  .desktop-show {
+    display: none;
+  }
+}
 
 footer {
   background-color: #212629;
