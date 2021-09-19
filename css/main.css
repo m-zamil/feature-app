@@ -386,7 +386,7 @@
   bottom: -155px;
 }
 .desktop-show {
-  display: initial;
+  display: block;
 }
 .mb-0 {
   margin-bottom: 0 !important;
