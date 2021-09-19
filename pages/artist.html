@@ -21,7 +21,7 @@
             <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
+            <a href="#" class="nav-link btn" style="letter-spacing: 4px; padding: 12px 28px">JOIN NOW</a>
           </li>
         </ul>
         <div class="menu__drawer">
@@ -43,7 +43,7 @@
                 <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
+                <a href="#" class="nav-link btn" style="letter-spacing: 4px; padding: 12px 28px">JOIN NOW</a>
               </li>
             </div>
           </ul>
@@ -57,7 +57,11 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="section__title desktop-show">Feature allows you to connect directly with your supporters</h1>
+        <h1 class="section__title desktop-show">
+          Feature allows you <br />
+          to connect directly <br />
+          with your supporters
+        </h1>
         <h1 class="section__title desktop-hidden">Easily Connect Directly to Your Fanbase</h1>
       </section>
       <section class="showcase">
@@ -66,27 +70,119 @@
           <h2 class="desktop-show">Feature showcases the newest technology in the entire digital social marketplace. Fans and entertainers have never been more connected.</h2>
         </div>
         <div class="showcase__image bg-transparent-mb">
-          <img class="desktop-show" src="../images/Phone Mock.png" alt="" height="450" />
+          <img class="desktop-show m-auto" src="../images/Phone Mock.png" alt="" height="450" />
           <img class="desktop-hidden" src="../images/news-mobile.png" alt="" />
         </div>
       </section>
-      <div class="features__slider--wrapper">
-        <section class="features__slider">
-          <div>
-            <h2>Feature is Revolutionary</h2>
-            <ul class="flex">
-              <li>Brands</li>
-              <li>Venues</li>
-              <li>Fans</li>
-              <li>Entertainers</li>
-            </ul>
-            <p>Feature connects the live entertainment economy, bringing together fans, artists, venues, and brands into one platform.</p>
+      <!-- Feature slider -->
+      <div class="slideshow-container">
+        <div class="mySlides mySlides-1 fade">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Feature is Revolutionary</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(1)">Brands</li>
+                  <li onclick="currentSlide(2)">Venues</li>
+                  <li onclick="currentSlide(3)">Fans</li>
+                  <li onclick="currentSlide(4)">Entertainers</li>
+                </ul>
+                <p>
+                  Feature connects the live <br />
+                  entertainment economy, bringing <br />
+                  together fans, artists, venues, and <br />
+                  brands into one platform.
+                </p>
+              </div>
+              <div class="desktop-show features__slider--image"><img src="../images/slider-1.png" alt="" /></div>
+            </section>
           </div>
-          <div class="desktop-show"><img src="../images/slider-1.png" alt="" /></div>
-        </section>
+        </div>
+
+        <div class="mySlides mySlides-2 fade">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Seamless</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(1)">Brands</li>
+                  <li onclick="currentSlide(2)">Venues</li>
+                  <li onclick="currentSlide(3)">Fans</li>
+                  <li onclick="currentSlide(4)">Entertainers</li>
+                </ul>
+                <p>
+                  Book talent and live stream events <br />
+                  on Feature to drive additional <br />
+                  revenue and foot traffic.
+                </p>
+              </div>
+              <div class="desktop-show features__slider--image"><img src="../images/Live Enterntainment Your Way.png" alt="" /></div>
+            </section>
+          </div>
+        </div>
+
+        <div class="mySlides mySlides-3 fade">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Make Connections</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(1)">Brands</li>
+                  <li onclick="currentSlide(2)">Venues</li>
+                  <li onclick="currentSlide(3)">Fans</li>
+                  <li onclick="currentSlide(4)">Entertainers</li>
+                </ul>
+                <p>
+                  Watch paid of free broadcasts, <br />
+                  find local events & buy tickets, <br />
+                  and book virutal meet & greets <br />
+                  with celebs.
+                </p>
+              </div>
+              <div class="desktop-show features__slider--image"><img src="../images/Meet.png" alt="" /></div>
+            </section>
+          </div>
+        </div>
+
+        <div class="mySlides mySlides-4 fade">
+          <div class="features__slider--wrapper">
+            <section class="features__slider">
+              <div>
+                <h2>Growth & Engagement</h2>
+                <ul class="flex">
+                  <li onclick="currentSlide(1)">Brands</li>
+                  <li onclick="currentSlide(2)">Venues</li>
+                  <li onclick="currentSlide(3)">Fans</li>
+                  <li onclick="currentSlide(4)">Entertainers</li>
+                </ul>
+                <p>
+                  Gain exposure and make more <br />
+                  money by utilizing Feature’s <br />
+                  marketplace to book performances <br />
+                  and monetize their fan base.
+                </p>
+              </div>
+              <div class="desktop-show features__slider--image"><img src="../images/Phone Mock.png" alt="" /></div>
+            </section>
+          </div>
+        </div>
       </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <!-- Feature slider end -->
+
       <section class="front">
-        <h2 class="section__title desktop-show">MAKE MONEY THROUGH FEATURE’S SEAMLESS PLATFORM</h2>
+        <h2 class="section__title desktop-show">
+          MAKE MONEY THROUGH <br />
+          FEATURE’S SEAMLESS <br />
+          PLATFORM
+        </h2>
         <h2 class="section__title desktop-hidden">Do What You Love. Make Money Now</h2>
         <div class="desktop-hidden text-center"><a href="#" class="btn join__now">JOIN NOW</a></div>
         <div class="flex social-btns">
@@ -132,7 +228,10 @@
       </section>
 
       <section class="join__feature desktop-show">
-        <h2 class="section__title">Join Feature and Start Making Money</h2>
+        <h2 class="section__title">
+          Join Feature and Start <br />
+          Making Money
+        </h2>
         <div><a href="#" class="btn join__now">JOIN NOW</a></div>
       </section>
       <section class="hundred bg-orange">
@@ -146,7 +245,7 @@
         </div>
         <div class="showcase__image"><img src="../images/Video PNGs 2.png" alt="" height="450" /></div>
       </section>
-      <section class="join__feature pb-0">
+      <section class="join__feature">
         <h2 class="section__title">Start Making Money with Feature</h2>
         <div><a href="#" class="btn join__now">JOIN NOW</a></div>
       </section>
@@ -224,5 +323,6 @@
       </div>
     </footer>
     <script src="../js/main.js"></script>
+    <script src="../js/artist.js"></script>
   </body>
 </html>

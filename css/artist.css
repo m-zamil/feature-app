@@ -13,7 +13,6 @@
 .section__title {
   font-size: 3rem;
   color: white;
-  max-width: 568px;
 }
 
 .showcase {
@@ -67,7 +66,7 @@
   color: #212629;
 }
 .gain__revenue .showcase__image {
-  background-color: rgb(234, 149, 33);
+  background-color: #f5881f;
 }
 .gain__revenue .showcase__content h2 {
   font-size: 2rem;
@@ -95,7 +94,8 @@
   width: 90%;
   font-size: 2rem;
   width: 90%;
-  padding-right: 200px;
+  padding-right: 35%;
+  font-weight: bold;
 }
 .simplified__booking .showcase__image {
   background-color: rgb(230, 36, 36);
@@ -113,15 +113,15 @@
 
 .join__now {
   color: white;
-  padding: 1.1rem 3rem;
+  padding: 0.7rem 2rem;
   letter-spacing: 6px;
 }
 .bg-orange {
-  background-color: rgb(234, 149, 33);
+  background-color: #f5881f;
 }
 
 .features__slider--wrapper {
-  background: linear-gradient(to right, rgb(234, 149, 33) 33%, rgb(230, 36, 36) 100%);
+  background: linear-gradient(to right, #f5881f 20%, #df2025 100%);
   margin: 9rem 0 2rem;
 }
 
@@ -133,7 +133,8 @@
   flex-direction: row;
   color: white;
   position: relative;
-  width: 61%;
+  width: 55%;
+  gap: 5%;
   margin: 0 auto;
 }
 .features__slider > div {
@@ -141,31 +142,110 @@
 }
 .features__slider h2 {
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
 }
 
 .features__slider p {
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.3;
+  font-weight: bold;
 }
 
 .features__slider img {
-  width: 330px;
   position: absolute;
-  top: -90px;
+  max-height: 385px;
+  top: 50%;
+  transform: translateY(-50%);
 }
+.features__slider--image {
+  display: flex;
+  justify-content: center;
+}
+
 .features__slider ul {
   display: flex;
   justify-content: start;
   gap: 20px;
+  margin-top: 0;
+  margin-bottom: 22px;
 }
 .features__slider ul li {
-  font-size: 14px;
+  font-size: 12px;
+  cursor: pointer;
+  border-bottom: 4px solid transparent;
 }
 
 ul {
   padding: 0;
 }
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mySlides-1 .features__slider--wrapper {
+  background: rgb(238, 152, 33);
+  background: linear-gradient(90deg, rgba(238, 152, 33, 1) 0%, rgba(223, 39, 37, 1) 100%);
+}
+
+.mySlides-2 .features__slider--wrapper {
+  background: rgb(238, 152, 33);
+  background: linear-gradient(90deg, rgba(238, 152, 33, 1) 0%, rgba(223, 37, 38, 1) 100%);
+}
+
+.mySlides-3 .features__slider--wrapper {
+  background: rgb(234, 126, 35);
+  background: linear-gradient(90deg, rgba(234, 126, 35, 1) 0%, rgba(222, 33, 37, 1) 100%);
+}
+.mySlides-4 .features__slider--wrapper {
+  background: #de2125;
+}
+
+.mySlides-1 .features__slider--wrapper li:nth-child(1) {
+  border-bottom: 4px solid #df2725;
+}
+
+.mySlides-2 .features__slider--wrapper li:nth-child(2) {
+  border-bottom: 4px solid #e69655;
+}
+.mySlides-3 .features__slider--wrapper li:nth-child(3) {
+  border-bottom: 4px solid #212629;
+}
+.mySlides-4 .features__slider--wrapper li:nth-child(4) {
+  border-bottom: 4px solid #f5881f;
+}
+
+/* Feature slider test end*/
 
 /*--------Responsive Design--------*/
 @media (max-width: 768px) {

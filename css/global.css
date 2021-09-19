@@ -49,13 +49,8 @@ button {
 }
 
 .btn {
-  background-color: #f5d020;
-  background-image: linear-gradient(315deg, #f53803 25%, #f5d020 50%);
-  background: -webkit-linear-gradient(left, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
-  background: -o-linear-gradient(left, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
-  background: -ms-linear-gradient(left, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
-  background: -moz-linear-gradient(left, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
-  background: linear-gradient(to right, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
+  background-color: #f5881f;
+  background: linear-gradient(to right, #f5881f 25%, #df2025 100%);
   padding: 12px;
   border-radius: 8px;
   font-size: 14px !important;
@@ -119,6 +114,7 @@ img {
 
 .hamburger {
   margin-left: 50px;
+  cursor: pointer;
 }
 
 .bar {
@@ -325,7 +321,8 @@ img {
 }
 
 .app-btn.blu {
-  background: linear-gradient(to right, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%);
+  /* background: linear-gradient(to right, rgb(234, 149, 33) 38%, rgb(230, 36, 36) 100%); */
+  background: linear-gradient(to right, #f5881f 20%, #df2025 100%);
   transition: background-color 0.25s linear;
 }
 .app-btn.blu:hover {
