@@ -88,7 +88,7 @@
   align-items: center;
   padding-left: 10% !important;
   margin: 0 auto;
-  gap: 200px;
+  /* gap: 200px; */
 }
 .make__conn > * {
   flex-basis: 50%;
