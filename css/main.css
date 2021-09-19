@@ -523,6 +523,11 @@
     padding-bottom: 0;
     padding: 2rem 0;
   }
+  .live-entertainment .owl-dots {
+    justify-content: flex-start;
+    display: flex;
+    padding-left: 20px;
+  }
 
   .footer-hero .hero-wrapper {
     padding-bottom: 100px;
