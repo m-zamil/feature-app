@@ -344,19 +344,28 @@ img {
 .desktop-show {
   display: block;
 }
-.show {
+.show-d {
   display: block;
 }
-.hide {
-  display: none;
+.hide-d {
+  display: none !important;
+}
+.pb-0-mb {
+  padding-bottom: 0 !important;
+}
+.footer-logo img {
+  width: 150px;
 }
 
 @media (max-width: 768px) {
+  .footer-logo img {
+    width: 250px;
+  }
   .hide-mb {
     display: none !important;
   }
   .show-mb {
-    display: block;
+    display: block !important;
   }
   .desktop-hidden {
     display: block;
