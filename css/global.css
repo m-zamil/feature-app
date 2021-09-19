@@ -40,6 +40,13 @@ a {
 button {
   font-family: inherit;
 }
+.fa,
+.fas {
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 6px;
+}
 
 .btn {
   background-color: #f5d020;
@@ -73,6 +80,13 @@ button {
 .w-25 {
   width: 25%;
 }
+.w-60 {
+  width: 60%;
+}
+.m-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .text-center {
   text-align: center !important;
 }
@@ -97,7 +111,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
 }
 
 .hamburger {

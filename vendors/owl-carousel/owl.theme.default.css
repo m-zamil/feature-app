@@ -18,6 +18,7 @@
   top: calc(50% - 32px);
   justify-content: space-between;
   width: 100%;
+  pointer-events: none;
 }
 .owl-carousel {
   position: relative;

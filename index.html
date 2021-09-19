@@ -18,10 +18,10 @@
         <a href="#" class="nav-logo"><img src="./images/logo-transparent.png" alt="" /></a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="#" class="nav-link">What is Feature</a>
+            <a href="#" class="nav-link">What is Feature <i class="fas fa-chevron-down"></i></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Feature For Artists</a>
+            <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
@@ -40,10 +40,10 @@
             </li>
             <div class="desktop-hidden">
               <li class="nav-item">
-                <a href="#" class="nav-link">What is Feature</a>
+                <a href="#" class="nav-link">What is Feature <i class="fas fa-chevron-down"></i></a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Feature For Artists</a>
+                <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
@@ -287,14 +287,18 @@
           </div>
         </div>
       </section>
-      <section class="banner__wrapper">
-        <div class="banner">
-          <div class="dropdown">
-            <button class="dropbtn">Virtual Meet & Greet <img src="./images/arrow-head-filled.png" alt="" /></button>
-            <div class="dropdown-content"></div>
-          </div>
+
+      <div class="dropdown banner__wrapper">
+        <h2 onclick="myFunction(1)" class="dropbtn banner" id="dropbtn">Virtual Meet & Greet <i class="fas fa-lg fa-caret-down"></i></h2>
+        <div id="myDropdown" class="dropdown-content banner">
+          <p>
+            Find out more on how you can use Feature to connect on another level through <br />
+            Virtual Meet and Greet opportunitites with artists and local talent
+          </p>
+          <a href="#">LEARN MORE</a>
         </div>
-      </section>
+      </div>
+
       <section class="desktop-hidden">
         <div class="pt-2"><img class="" src="./images/news-mobile.png" alt="" /></div>
         <div class="owl-carousel owl-carousel-3 owl-theme gallery">
@@ -330,14 +334,17 @@
           <img src="./images/entertainment-1.png" alt="" />
         </div>
       </section>
-      <section class="banner__wrapper explore">
-        <div class="banner">
-          <div class="dropdown">
-            <button class="dropbtn">Explore What You Love <img src="./images/arrow-head-filled.png" alt="" /></button>
-            <div class="dropdown-content"></div>
-          </div>
+
+      <div class="dropdown banner__wrapper desktop-show">
+        <h2 onclick="myFunction(2)" class="dropbtn banner" id="dropbtn">Explore What You Love <i class="fas fa-lg fa-caret-down"></i></h2>
+        <div id="myDropdown" class="dropdown-content banner">
+          <p>
+            Find out more on how you can search for Local Events and Live Broadcasts of your <br />
+            favorite artists’ content, get a tailored experience just for you.
+          </p>
         </div>
-      </section>
+      </div>
+
       <section class="banner__wrapper desktop-hidden">
         <div class="banner">
           <div class="dropdown">
@@ -390,20 +397,21 @@
           <img src="./images/booking-events.png" alt="" />
         </div>
       </section>
-      <section class="banner__wrapper">
-        <div class="banner">
-          <div class="dropdown">
-            <button class="dropbtn">Booking for Private Events <img src="./images/arrow-head-filled.png" alt="" /></button>
-            <p>Find out more on how you can request your favorite artists and local talent to attend and cater content for private events in-person or virtual.</p>
-            <div class="dropdown-content"></div>
-          </div>
+      <div class="dropdown banner__wrapper">
+        <h2 onclick="myFunction(3)" class="dropbtn banner" id="dropbtn">Booking for Private Events <i class="fas fa-lg fa-caret-down"></i></h2>
+        <div id="myDropdown" class="dropdown-content banner">
+          <p>
+            Find out more on how you can request your favorite artists and local talent to <br />
+            attend and cater content for private events in-person or virtual.
+          </p>
+          <a href="#">LEARN MORE</a>
         </div>
-      </section>
+      </div>
       <section class="find-events">
         <h2 class="section__title pt-2"><span class="desktop-hidden mb-0">Discover</span> <span class="desktop-show">Find</span> Local Events</h2>
         <p class="section__text">Search for Local Events and Live Broadcasts of your favorite artists’ content, Connect on another level through One-on-One Virtual Meet and Greet opportunitites with artists and local talent. Explore end to end streams and the capability to book local talent and artists for private events.</p>
         <div class="w-50 flex find-events__images bg-gray">
-          <img class="w-50" src="./images/Concert Video.png" alt="" />
+          <img class="w-60" src="./images/concert-1.png" alt="" />
           <div class="w-50 text-center"><img src="./images/Phone Mock.png" alt="" class="w-75" /></div>
         </div>
       </section>
@@ -435,8 +443,8 @@
             </div>
           </div>
           <div class="hero__image">
-            <img class="desktop-show" src="./images/Phone Mock.png" alt="" />
-            <img class="desktop-hidden" src="./images/news-mobile.png" alt="" />
+            <img class="desktop-show" src="./images/phone-mock-1.png" alt="" />
+            <img class="desktop-hidden m-auto" src="./images/news-mobile.png" alt="" />
             <img class="desktop-hidden w-100" src="./images/AdobeStock_137686564.jpeg" alt="" />
           </div>
         </div>
@@ -446,20 +454,42 @@
       <div class="footer__wrapper">
         <div class="col">
           <div class="footer-logo">
-            <img src="./images/logo-transparent.png" alt="" />
+            <img src="./images/logo-transparent.png" alt="" width="250" />
           </div>
           <p>Feature is redefning the live entertainment economy by empowering fans and artists to connect front and center in one platform.</p>
         </div>
-        <div class="col">
+        <div class="col desktop-hidden">
+          <h4>ABOUT</h4>
+          <h4>FOR ARTISTS</h4>
+          <h4>CONTACT US</h4>
+        </div>
+        <div class="col desktop-show">
           <h4>COMMUNITY</h4>
           <p><a href="#">About</a></p>
           <p><a href="">For Artists</a></p>
         </div>
         <div class="col">
-          <h4>GET THE APP</h4>
-          <p><a href="#">App Store</a></p>
+          <h4 class="desktop-show">GET THE APP</h4>
+          <p class="desktop-show"><a href="#">App Store</a></p>
         </div>
-        <div class="col">
+        <div class="flex social-btns">
+          <a class="app-btn blu flex vert" href="http:apple.com">
+            <i class="fab fa-apple"></i>
+            <p>
+              Download on the <br />
+              <span class="big-txt">App Store</span>
+            </p>
+          </a>
+
+          <a class="app-btn blu flex vert" href="http:google.com">
+            <i class="fab fa-google-play"></i>
+            <p>
+              Get app on <br />
+              <span class="big-txt">Google Play</span>
+            </p>
+          </a>
+        </div>
+        <div class="col desktop-show">
           <h4>CONTACT US</h4>
           <p><a href="mailto:info@featureapp.co">E: info@featureapp.co</a></p>
           <p><a href="">For Android</a></p>
