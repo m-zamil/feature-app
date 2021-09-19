@@ -12,31 +12,46 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <a href="/" class="nav-logo"><img src="../images/logo-transparent.png" alt="" /></a>
+        <a href="#" class="nav-logo"><img src="../images/logo-transparent.png" alt="" /></a>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="/" class="nav-link">Home</a>
+            <a href="#" class="nav-link">What is Feature <i class="fas fa-chevron-down"></i></a>
           </li>
           <li class="nav-item">
-            <a href="./meetgreet.html" class="nav-link">Meet & Greet</a>
+            <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Artist</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">What is Feature</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Feature For Artists</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link btn">JOIN NOW</a>
+            <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
           </li>
         </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <div class="menu__drawer">
+          <ul class="nav-menu--mobile">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./meetgreet.html" class="nav-link">Meet & Greet</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Artist</a>
+            </li>
+            <div class="desktop-hidden">
+              <li class="nav-item">
+                <a href="#" class="nav-link">What is Feature <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Feature For Artists <i class="fas fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link btn">DOWNLOAD FEATURE</a>
+              </li>
+            </div>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </div>
       </nav>
     </header>
@@ -140,20 +155,51 @@
       <div class="footer__wrapper">
         <div class="col">
           <div class="footer-logo">
-            <img src="../images/logo-transparent.png" alt="" />
+            <img src="../images/logo-transparent.png" alt="" width="250" />
           </div>
-          <p>Feature is redefning the live entertainment economy by empowering fans and artists to connect front and center in one platform.</p>
+          <p>
+            Feature is redefning the live <br />
+            entertainment economy by <br />
+            empowering fans and artists to <br />
+            connect front and center in one <br />
+            platform.
+          </p>
         </div>
-        <div class="col">
+        <div class="col desktop-hidden mb-0">
+          <h4>ABOUT</h4>
+          <h4>FOR ARTISTS</h4>
+          <h4>CONTACT US</h4>
+        </div>
+        <div class="col desktop-show">
           <h4>COMMUNITY</h4>
           <p><a href="#">About</a></p>
           <p><a href="">For Artists</a></p>
         </div>
-        <div class="col">
+        <div class="col desktop-show">
           <h4>GET THE APP</h4>
           <p><a href="#">App Store</a></p>
+          <p><a href="">For Android</a></p>
         </div>
-        <div class="col">
+        <div class="col desktop-hidden">
+          <div class="flex social-btns">
+            <a class="app-btn blu flex vert" href="http:apple.com">
+              <i class="fab fa-apple"></i>
+              <p>
+                Download on the <br />
+                <span class="big-txt">App Store</span>
+              </p>
+            </a>
+
+            <a class="app-btn blu flex vert" href="http:google.com">
+              <i class="fab fa-google-play"></i>
+              <p>
+                Get app on <br />
+                <span class="big-txt">Google Play</span>
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="col desktop-show">
           <h4>CONTACT US</h4>
           <p><a href="mailto:info@featureapp.co">E: info@featureapp.co</a></p>
           <p><a href="">For Android</a></p>
