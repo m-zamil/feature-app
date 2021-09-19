@@ -344,8 +344,20 @@ img {
 .desktop-show {
   display: block;
 }
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
 
 @media (max-width: 768px) {
+  .hide-mb {
+    display: none !important;
+  }
+  .show-mb {
+    display: block;
+  }
   .desktop-hidden {
     display: block;
   }
