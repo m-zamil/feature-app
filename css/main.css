@@ -143,6 +143,8 @@
   background-color: #212629;
   color: white;
   line-height: 1.5;
+  min-height: 175px;
+  border-radius: 5px;
 }
 .banner {
   margin: 0 auto;
@@ -419,8 +421,26 @@
   display: none;
 }
 
+.virtual-meetgreet {
+  display: none;
+  padding-left: 5.5%;
+  font-size: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.virtual__meet.rotate + p.virtual-meetgreet {
+  display: none;
+}
+
 /*Mobile design*/
 @media only screen and (max-width: 768px) {
+  .virtual-meetgreet + .dropdown-content {
+    position: relative;
+    top: -50%;
+    z-index: 1;
+  }
   .top-hero .hero-wrapper .hero__image img {
     height: 300px;
   }
@@ -429,7 +449,6 @@
   }
   .desktop-hidden {
     display: initial;
-    margin-bottom: 2rem;
     display: block;
   }
   .desktop-hidden img {
@@ -589,6 +608,7 @@
   .make-feature {
     padding: 0;
     text-align: center;
+    padding-top: 2rem;
   }
   .make-feature .section__title {
     text-align: center;
@@ -652,7 +672,7 @@
     display: none;
   }
   .make-feature .section__title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .booking__entertainer {
     padding: 50px 0;

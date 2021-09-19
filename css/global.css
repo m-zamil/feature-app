@@ -353,11 +353,15 @@ img {
 .pb-0-mb {
   padding-bottom: 0 !important;
 }
+
 .footer-logo img {
   width: 150px;
 }
 
 @media (max-width: 768px) {
+  .pe-0 {
+    pointer-events: none;
+  }
   .footer-logo img {
     width: 250px;
   }
@@ -377,7 +381,7 @@ img {
 
 footer {
   background-color: #212629;
-  padding: 0px 32px;
+  padding: 0px 2.5rem;
 }
 footer a {
   text-decoration: none;

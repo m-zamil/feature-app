@@ -294,8 +294,15 @@
       </section>
 
       <div class="dropdown banner__wrapper">
-        <h2 onclick="myFunction(1)" class="dropbtn banner pb-0-mb" id="dropbtn">Virtual Meet & Greet <i class="fas fa-lg fa-caret-down hide-mb"></i></h2>
-        <p class="hide-d show-mb" style="padding: 0 2.5rem">
+        <h2 onclick="myFunction(1)" class="dropbtn banner virtual__meet" id="dropbtn">
+          <span class="desktop-hidden mb-0"
+            >Virtual Meet <br />
+            and Greet</span
+          >
+          <span class="desktop-show"> Virtual Meet and Greet </span>
+          <i class="fas fa-lg fa-caret-down hide-mb"></i>
+        </h2>
+        <p class="virtual-meetgreet desktop-hidden">
           Find out more on how you can use Feature to connect on another level through <br />
           Virtual Meet and Greet opportunitites with artists and local talent
         </p>
@@ -357,7 +364,10 @@
       <section class="banner__wrapper desktop-hidden">
         <div class="banner">
           <div class="dropdown">
-            <button class="dropbtn">Find Your Favorite Events</button>
+            <button class="dropbtn">
+              Find Your <br />
+              Favorite Events
+            </button>
             <p>Find out more on how you can search for Local Events and Live Broadcasts of your favorite artists’ content, get a tailored experience just for you.</p>
             <div class="dropdown-content"></div>
           </div>
@@ -400,14 +410,34 @@
         </div>
       </section>
       <section class="events__booking">
-        <h2 class="section__title">Booking for Private Events</h2>
+        <h2 class="section__title">
+          Booking for <br />
+          Private Events
+        </h2>
         <p class="section__text">Bridge the gap between entertainers and fans by easily requesting/booking artists and local talent for virtual and in-person private events.</p>
         <div class="parents">
           <img src="./images/booking-events.png" alt="" />
         </div>
       </section>
-      <div class="dropdown banner__wrapper">
+      <div class="dropdown banner__wrapper desktop-show">
         <h2 onclick="myFunction(3)" class="dropbtn banner" id="dropbtn">Booking for Private Events <i class="fas fa-lg fa-caret-down"></i></h2>
+        <div id="myDropdown" class="dropdown-content banner">
+          <p>
+            Find out more on how you can request your favorite artists and local talent to <br />
+            attend and cater content for private events in-person or virtual.
+          </p>
+          <a href="#">LEARN MORE</a>
+        </div>
+      </div>
+      <div class="dropdown banner__wrapper desktop-hidden">
+        <h2 onclick="myFunction(3)" class="dropbtn banner" id="dropbtn">
+          Booking for <br />
+          Private Events
+        </h2>
+        <p class="banner dropdown-content" style="display: block; padding: 0px 32px 32px 32px">
+          Find out more on how you can request your favorite artists and local talent to <br />
+          attend and cater content for private events in-person or virtual.
+        </p>
         <div id="myDropdown" class="dropdown-content banner">
           <p>
             Find out more on how you can request your favorite artists and local talent to <br />
@@ -473,7 +503,7 @@
             platform.
           </p>
         </div>
-        <div class="col desktop-hidden">
+        <div class="col desktop-hidden mb-0">
           <h4>ABOUT</h4>
           <h4>FOR ARTISTS</h4>
           <h4>CONTACT US</h4>
