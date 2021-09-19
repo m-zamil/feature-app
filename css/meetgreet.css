@@ -181,14 +181,14 @@
     background: #212629 !important;
     justify-content: space-around;
   }
-  .fa-apple:before {
+  .meet_artist .fa-apple:before {
     content: "\f179";
     background: linear-gradient(to right, rgb(234, 149, 33) 30%, rgb(230, 36, 36) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: initial;
   }
-  .fa-google-play:before {
+  .meet_artist .fa-google-play:before {
     content: "\f3ab";
     background: linear-gradient(to right, rgb(234, 149, 33) 0%, rgb(230, 36, 36) 100%);
     -webkit-background-clip: text;
