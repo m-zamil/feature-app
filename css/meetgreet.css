@@ -201,4 +201,7 @@
     -webkit-text-fill-color: transparent;
     display: initial;
   }
+  .make__conn--img {
+    background-color: rgb(216, 35, 35);
+  }
 }
