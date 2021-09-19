@@ -675,3 +675,9 @@
     top: 0;
   }
 }
+
+@media (max-width: 368px) {
+  .section__title {
+    font-size: 2rem;
+  }
+}
