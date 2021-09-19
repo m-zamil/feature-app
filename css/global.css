@@ -90,6 +90,9 @@ button {
 .text-center {
   text-align: center !important;
 }
+.text-left {
+  text-align: left !important;
+}
 .bg-gray {
   background-color: #ecedef;
 }
@@ -377,6 +380,15 @@ img {
   .desktop-show {
     display: none;
   }
+  .footer__wrapper .social-btns {
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+  .footer__wrapper .social-btns .app-btn.blu {
+    width: 150px;
+    max-width: 150px;
+  }
 }
 
 footer {
@@ -410,4 +422,28 @@ footer a {
 
 .footer__wrapper .app-btn {
   padding: 0 10px;
+}
+.footer__wrapper {
+  flex-wrap: wrap;
+  gap: 0;
+  padding-top: 30px;
+}
+.footer__wrapper .col:first-child p {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .footer-hero .hero__image {
+    bottom: 0 !important;
+    padding-bottom: 0;
+  }
+  .footer-hero .hero__image img {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .app-btn .big-txt {
+    font-size: 12px;
+  }
 }

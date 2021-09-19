@@ -169,15 +169,6 @@
 .dropdown-content.show a {
   color: #212629;
 }
-@media (min-width: 768px) {
-  .footer-hero .hero__image {
-    bottom: 0 !important;
-    padding-bottom: 0;
-  }
-  .footer-hero .hero__image img {
-    height: 100%;
-  }
-}
 
 .dropbtn {
   padding-left: 7.5% !important;
@@ -502,14 +493,7 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
-  .footer__wrapper {
-    flex-wrap: wrap;
-    gap: 0;
-    padding-top: 30px;
-  }
-  .footer__wrapper .col:first-child p {
-    font-size: 1.1rem;
-  }
+
   .tabs--title {
     flex-wrap: wrap;
     padding: 0;
@@ -630,18 +614,11 @@
   .hero--title {
     margin: 20px 0;
   }
-  .footer__wrapper .social-btns {
-    flex-direction: column;
-    align-items: start;
-    width: 100%;
-  }
+
   .find-events__images {
     display: none;
   }
-  .footer__wrapper .social-btns .app-btn.blu {
-    width: 150px;
-    max-width: 150px;
-  }
+
   .feature-playing__image {
     max-width: 95%;
     margin: 25px auto;

@@ -5,6 +5,7 @@
   font-size: 2.2rem;
   text-align: center;
   margin-top: 0;
+  padding: 0 30px;
 }
 
 .hero__image {
@@ -15,8 +16,15 @@
   overflow-x: hidden;
 }
 
+.hero__image.desktop-show {
+  display: flex;
+}
 .hero__image .img-1 {
   /* flex: auto; */
+}
+
+.meetgreet-hero-img {
+  width: 100%;
 }
 
 .hero__image .img-2 {
@@ -29,11 +37,11 @@
 
 .meet__celeb {
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
-  padding: 160px 0;
+  padding: 130px 0;
   margin-top: -100px;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(to right, rgb(234, 149, 33) 33%, rgb(230, 36, 36) 100%);
+  background: linear-gradient(to right, rgb(234, 149, 33) 20%, rgb(230, 36, 36) 100%);
   color: white;
   margin-top: -160px;
 }
@@ -99,9 +107,28 @@
 }
 
 @media (max-width: 768px) {
+  .front {
+    padding: 48px 0;
+    color: white;
+    background-color: #212629;
+    margin: 0 !important;
+    width: 100%;
+  }
+  .make__conn h2 {
+    font-size: 2rem;
+  }
+  .social-btns .app-btn {
+    width: auto;
+  }
+  .hero__image.desktop-show {
+    display: none;
+  }
   .hero__image {
     overflow: hidden;
     max-width: 100%;
+  }
+  .meet__celeb--content {
+    gap: 0;
   }
   .make__conn {
     flex-direction: column;
@@ -112,6 +139,7 @@
   .meet__celeb {
     clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%) !important;
     padding: 80px 0;
+    color: #212629;
   }
   .make__conn--img {
     width: 100%;
@@ -131,8 +159,26 @@
   }
   .meet__celeb--content {
     flex-direction: column;
+    align-items: start;
+  }
+  .meet__celeb--content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
   }
   .hero {
-    padding: 50px 0 160px;
+    padding: 50px 0 200px;
+  }
+  .text-center {
+    text-align: center !important;
+    margin: 0 auto;
+  }
+  .meet_artist .social-btns {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .meet_artist .social-btns .app-btn.blu {
+    background: #212629 !important;
+    justify-content: space-around;
   }
 }
