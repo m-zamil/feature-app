@@ -284,6 +284,8 @@ ul {
     color: black;
     font-size: 2rem;
   }
+  .gain__revenue .showcase__content h2.desktop-hidden:first-child {
+  }
 
   .gain__revenue .showcase__content {
     width: 100%;
