@@ -252,9 +252,14 @@ ul {
   .hero {
     padding: 30px;
   }
+
   .section__title {
     font-size: 2rem;
     max-width: 90%;
+  }
+  .hero .section__title {
+    max-width: 100% !important;
+    padding-top: 10vh;
   }
   .showcase {
     flex-direction: column;
