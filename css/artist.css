@@ -412,4 +412,8 @@ ul {
   .dot {
     display: inline-block;
   }
+  .mySlides-0 .features__slider--wrapper {
+    background-color: #212629 !important;
+    background: #212629;
+  }
 }
