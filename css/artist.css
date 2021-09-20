@@ -246,10 +246,10 @@ ul {
 }
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 8px;
+  width: 8px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   transition: background-color 0.6s ease;
   display: none;
@@ -257,7 +257,16 @@ ul {
 
 .active,
 .dot:hover {
-  background-color: #717171;
+  background: rgb(238, 152, 33);
+  background: linear-gradient(90deg, rgba(238, 152, 33, 1) 0%, rgba(223, 37, 38, 1) 100%);
+  width: 12px;
+  height: 12px;
+}
+
+.dots-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 /* Feature slider end*/
