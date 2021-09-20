@@ -284,6 +284,7 @@ ul {
     color: #212629;
   }
   .gain__revenue .showcase__content h2.desktop-hidden:first-child {
+    font-size: 2.5rem;
   }
 
   .gain__revenue .showcase__content {
@@ -337,6 +338,12 @@ ul {
   }
   .features__slider p {
     line-height: 1.5;
+  }
+  .features__slider--image {
+    display: none;
+  }
+  .features__slider > div {
+    flex-basis: auto;
   }
   .front {
     padding: 2rem 0;
