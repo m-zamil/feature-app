@@ -280,10 +280,9 @@ ul {
   .gain__revenue .showcase__content h2 {
     margin-bottom: 0;
   }
-  /* .gain__revenue .showcase__content h2.desktop-hidden {
-    color: black;
-    font-size: 2rem;
-  } */
+  .gain__revenue .showcase__content h2.desktop-hidden {
+    color: #212629;
+  }
   .gain__revenue .showcase__content h2.desktop-hidden:first-child {
   }
 
